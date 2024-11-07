@@ -8,9 +8,9 @@ import {
 
 const AppContext = createContext();
 
-const API_KEY = "ac97b4a45bf9f7f94d8d960d16fc3a36";
-const DEFAULT_LATITUDE = 30.0626;
-const DEFAULT_LONGITUDE = 31.2497;
+const API_KEY = "1f1c352c2487352e38eb38a365d0e3dc";
+const DEFAULT_LATITUDE = 6.524379;
+const DEFAULT_LONGITUDE = 3.379206 ;
 
 async function fetchData(url, setter) {
   try {

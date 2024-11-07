@@ -18,14 +18,14 @@ function Footer() {
           <img src={openWeatherLogo} alt="openWeather" loading="lazy" />
         </a>
       </div>
-      <p className={styles.info}>Designed and Coded by :</p>
+      <p className={styles.info}></p>
       <p>
         <sup>&#169; </sup>
-        {currentYear} <span className={styles.myName}>Abdelrahman Alsayed</span>
+        {currentYear} <span className={styles.myName}>Toby</span>
       </p>
       <div className={styles.links}>
         <a
-          href="https://www.linkedin.com/in/abdelrahman-alsayed-b312311a0/"
+          href="https://www.linkedin.com/in/akinsola-toby/"
           title="Author LinkedIn account"
           target="_blank"
           rel="noopener noreferrer"
@@ -33,7 +33,7 @@ function Footer() {
           <FaLinkedin />
         </a>
         <a
-          href="https://github.com/AbdelrahmanAlsayed"
+          href="https://github.com/TOBYACEDRIP"
           title="Author github account"
           target="_blank"
           rel="noopener noreferrer"
